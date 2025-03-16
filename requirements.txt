@@ -2,3 +2,5 @@ numpy
 matplotlib
 opencv-python
 scikit-learn
+nbimporter
+nbformat
