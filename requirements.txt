@@ -2,4 +2,3 @@ numpy
 matplotlib
 opencv-python
 scikit-learn
-cv2
