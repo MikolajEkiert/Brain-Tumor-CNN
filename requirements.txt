@@ -4,3 +4,4 @@ opencv-python
 scikit-learn
 nbimporter
 nbformat
+numba
