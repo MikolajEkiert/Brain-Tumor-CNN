@@ -20,7 +20,7 @@ Deep learning frameworks often obscure the underlying calculus and linear algebr
   * **L2 Regularization**: Weight decay added directly to the loss function gradient.
 * **Custom Data Processing**:
   * Gray-scale loading, image resizing ($48 \times 48$), histogram equalization, and custom mini-batch creation.
-  * **Dynamic Image Augmentation**: Built-in horizontal flips, random rotations, random scaling, translations, contrast/brightness variance, Gaussian blurring, and Gaussian pixel noise.
+  * **Dynamic Image Augmentation**: Built-in horizontal flips, random rotations, random scaling, translations, contrast/brightness variance, reduced Gaussian blurring (10% probability), and reduced Gaussian pixel noise ($\sigma = 0.005$).
 * **Weighted Binary Cross Entropy**: Configurable weights for positive and negative classes to counter dataset imbalance.
 
 ---
